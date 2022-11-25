@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        a{
+            display: inline-block;
+            color:black;
+            width: 40%;
+            text-decoration: none;
+            font-size: 20px;
+            background-color: #20e28749;/*hex code 6 digits 0-9 and A-F*/
+            border: 1px solid black;
+            /* 
+            border-width:1px;
+            border-style: solid;
+            border-color:black;
+            */
+            /* padding-top:30px;
+            padding-left:15px;
+            padding-bottom:10px;
+            padding-right: 50px; */
+            /*padding:10px;10px around*/
+            /*padding:10px 0;tb lr*/
+            /*padding: 30px 50px 10px 5px;*/
+            padding: 10px;
+            margin: 20px;
+
+
+        }
+        a:hover{
+            background-color: black;
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .flex-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .menu{
+            background-color: green;
+            height: 300px;
+            width: 30%;
+        }
+        .main{
+            background-color: red;
+            height: 300px;
+            width: 65%;
+        }
+    </style>
+    
+</head>
+<body>
+    <h2>Practice</h2>
+    <h2>Links (HTML)</h2>
+    <p>We use a stands for anchor to link the pages (internal and external) </p>
+
+    <a href="http://www.google.com" target="_blank">google</a>
+    <a href="index.html">Home</a>
+    <h2>Flexbox (CSS)</h2>
+
+    <div class="flex-container">
+        <div class="menu">Menu</div>
+        <div  class="main">Main</div>
+    </div>
+    
+
+    
+</body>
+</html>
